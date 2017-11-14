@@ -10,6 +10,7 @@ ALLOWED_HOSTS = [
 ]
 
 PROJECT_APPS = [
+    'anggota',
 
 ]
 
@@ -20,6 +21,7 @@ REQUIRED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
